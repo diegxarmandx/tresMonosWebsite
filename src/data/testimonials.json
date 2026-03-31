@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Carla M.",
+    "quote": "Cada plato se siente hecho con orgullo boricua. El mofongo con camarones está brutal.",
+    "role": "Comensal local"
+  },
+  {
+    "id": "2",
+    "name": "James R.",
+    "quote": "La mejor experiencia de comida puertorriqueña en el oeste. Servicio y sabores excelentes.",
+    "role": "Visitante de Orlando"
+  },
+  {
+    "id": "3",
+    "name": "Gabriel y Ana",
+    "quote": "Nos encantó el ambiente moderno y familiar. Volvemos por el chillo y el tembleque.",
+    "role": "Clientes frecuentes"
+  }
+]

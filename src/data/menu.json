@@ -1,0 +1,391 @@
+[
+  {
+    "id": "monkey-bowl",
+    "name": "Monkey Bowl",
+    "description": "Bowl personalizable con base, proteína, acompañante y salsa a escoger.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "detailImage": "/images/menu/menu-bowls.jpg",
+    "detailButtonLabel": "Ver menu del bowl",
+    "category": "Bowls",
+    "featured": true
+  },
+  {
+    "id": "tuna-nachos",
+    "name": "Tuna Nachos",
+    "description": "Wonton chips, guacamole y seaweed.",
+    "price": 16,
+    "image": "/images/menu/plato.jpg",
+    "category": "Tapas",
+    "featured": true
+  },
+  {
+    "id": "pulpo",
+    "name": "Pulpo",
+    "description": "Pulpo con chicharrones.",
+    "price": 17,
+    "image": "/images/menu/plato.jpg",
+    "category": "Tapas"
+  },
+  {
+    "id": "burrata",
+    "name": "Burrata",
+    "description": "Granada, pesto fresco y tomates cherry.",
+    "price": 15,
+    "image": "/images/menu/plato.jpg",
+    "category": "Tapas"
+  },
+  {
+    "id": "tapas-churrasco",
+    "name": "Churrasco",
+    "description": "Churrasco con papitas.",
+    "price": 20,
+    "image": "/images/menu/plato.jpg",
+    "category": "Tapas"
+  },
+  {
+    "id": "tapas-ny-steak",
+    "name": "NY Steak",
+    "description": "NY steak con zanahorias confitadas.",
+    "price": 20,
+    "image": "/images/menu/plato.jpg",
+    "category": "Tapas"
+  },
+  {
+    "id": "croquetas",
+    "name": "Croquetas",
+    "description": "Queso manchego y prosciutto.",
+    "price": 11,
+    "image": "/images/menu/plato.jpg",
+    "category": "Tapas"
+  },
+  {
+    "id": "empanadillas",
+    "name": "Empanadillas",
+    "description": "Rellenas de churrasco y queso gouda.",
+    "price": 14,
+    "image": "/images/menu/plato.jpg",
+    "category": "Tapas"
+  },
+  {
+    "id": "queso-frito",
+    "name": "Queso Frito",
+    "description": "Con salsa de guayaba.",
+    "price": 11,
+    "image": "/images/menu/plato.jpg",
+    "category": "Tapas"
+  },
+  {
+    "id": "mofongo-relleno-pollo",
+    "name": "Mofongo Relleno (Pollo)",
+    "description": "Mofongo relleno de pollo.",
+    "price": 17,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "mofongo-relleno-churrasco",
+    "name": "Mofongo Relleno (Churrasco)",
+    "description": "Mofongo relleno de churrasco.",
+    "price": 20,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "carta-churrasco-10oz",
+    "name": "Churrasco 10 oz",
+    "description": "Churrasco de 10 onzas.",
+    "price": 30,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta",
+    "featured": true
+  },
+  {
+    "id": "carta-ny-steak-10oz",
+    "name": "NY Steak 10 oz",
+    "description": "NY steak de 10 onzas.",
+    "price": 30,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "monos-burguer",
+    "name": "Monos Burguer",
+    "description": "Hamburguesa de la casa.",
+    "price": 15,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "salmon-fresco-5oz",
+    "name": "Salmón Fresco 5 oz",
+    "description": "Salmón fresco de 5 onzas.",
+    "price": 16,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "masitas-pescado",
+    "name": "Masitas de Pescado",
+    "description": "Masitas de pescado al estilo de la casa.",
+    "price": 15,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "chuleta-frita",
+    "name": "Chuleta Frita",
+    "description": "Chuleta frita sazonada.",
+    "price": 13,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "carne-frita",
+    "name": "Carne Frita",
+    "description": "Carne frita con sazón criolla.",
+    "price": 13,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "chuleton-parrilla",
+    "name": "Chuletón a la Parrilla",
+    "description": "Chuletón preparado a la parrilla.",
+    "price": 16,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "masitas-pollo",
+    "name": "Masitas de Pollo",
+    "description": "Masitas de pollo salteadas.",
+    "price": 13,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "masitas-pollo-asiaticas",
+    "name": "Masitas de Pollo Asiáticas",
+    "description": "Masitas de pollo con toque asiático.",
+    "price": 13,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "pechuga-cilantro",
+    "name": "Pechuga (Cilantro)",
+    "description": "Pechuga en salsa de cilantro.",
+    "price": 13,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "pechuga-empanada",
+    "name": "Pechuga (Empanada)",
+    "description": "Pechuga empanada crujiente.",
+    "price": 13,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "pechuga-parmesana",
+    "name": "Pechuga (Parmesana)",
+    "description": "Pechuga a la parmesana.",
+    "price": 14,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "pechuga-salteada",
+    "name": "Pechuga (Salteada)",
+    "description": "Pechuga salteada al momento.",
+    "price": 14,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "pechuga-rellena",
+    "name": "Pechuga (Rellena)",
+    "description": "Pechuga rellena especial.",
+    "price": 19,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "taquitos-pollo",
+    "name": "Taquitos (Pollo)",
+    "description": "Taquitos rellenos de pollo.",
+    "price": 14,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "taquitos-pescado",
+    "name": "Taquitos (Pescado)",
+    "description": "Taquitos rellenos de pescado.",
+    "price": 14,
+    "image": "/images/menu/plato.jpg",
+    "category": "La Carta"
+  },
+  {
+    "id": "creme-brulee",
+    "name": "Crème Brûlée",
+    "description": "Crème brûlée.",
+    "price": 5,
+    "image": "/images/menu/plato.jpg",
+    "category": "Postres"
+  },
+  {
+    "id": "flan",
+    "name": "Flan",
+    "description": "Flan casero.",
+    "price": 5,
+    "image": "/images/menu/plato.jpg",
+    "category": "Postres"
+  },
+  {
+    "id": "cheesecake-frito",
+    "name": "Cheesecake Frito",
+    "description": "Cheesecake frito.",
+    "price": 8,
+    "image": "/images/menu/plato.jpg",
+    "category": "Postres"
+  },
+  {
+    "id": "la-cookie",
+    "name": "La Cookie",
+    "description": "Galleta especial de la casa.",
+    "price": 7,
+    "image": "/images/menu/plato.jpg",
+    "category": "Postres"
+  },
+  {
+    "id": "rompe-coco",
+    "name": "Rompe Coco",
+    "description": "Ron, piña, foam de coco.",
+    "price": 8,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "mona-lisa",
+    "name": "Mona Lisa",
+    "description": "Vodka, arándano, licor de china.",
+    "price": 8,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "espressito",
+    "name": "Espressito",
+    "description": "Vodka, shot de espresso, licor de café.",
+    "price": 8,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "monkey-see",
+    "name": "Monkey See",
+    "description": "Ginebra, limón, albahaca fresca.",
+    "price": 8,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "monkey-do",
+    "name": "Monkey Do",
+    "description": "Ginebra, marion blackberry, pacific strawberry.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "la-jungla",
+    "name": "La Jungla",
+    "description": "Whiskey, marion blackberry.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "pal-west",
+    "name": "Pal´ West",
+    "description": "Mezcal, tropical passionfruit, menta fresca.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "mayarita",
+    "name": "Mayarita",
+    "description": "Tequila, sandía fresca, pepino.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "margarita",
+    "name": "Margarita",
+    "description": "Tequila, limón, licor de china.",
+    "price": 8,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "tomcollins",
+    "name": "Tomcollins",
+    "description": "Ginebra, limón, soda.",
+    "price": 9,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "martini",
+    "name": "Martini",
+    "description": "Ginebra, vermú seco.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "description": "Ginebra, campari, vermú dulce.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "manhattan",
+    "name": "Manhattan",
+    "description": "Whiskey, vermú dulce, amargos aromáticos.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "old-fashioned",
+    "name": "Old Fashioned",
+    "description": "Whiskey, amargos aromáticos, amargos de naranja.",
+    "price": 10,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "espresso-martini",
+    "name": "Espresso Martini",
+    "description": "Vodka, shot de espresso, licor de café.",
+    "price": 9,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  },
+  {
+    "id": "moscow-mule",
+    "name": "Moscow Mule",
+    "description": "Vodka, limón, jengibre.",
+    "price": 8,
+    "image": "/images/menu/plato.jpg",
+    "category": "Cocteles y Clasicos"
+  }
+]
