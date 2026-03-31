@@ -4,7 +4,7 @@ import { OrderPageClient } from "@/components/order/OrderPageClient";
 
 export const metadata: Metadata = {
   title: "Ordenar | Tres Monos",
-  description: "Experiencia de orden en línea para recoger, con carrito y checkout en modo frontend simulado."
+  description: "Ordena en línea en Tres Monos para recoger tu comida en Mayagüez."
 };
 
 export default function OrderPage() {

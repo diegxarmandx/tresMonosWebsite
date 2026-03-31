@@ -11,8 +11,7 @@ export const OrderCtaSection = () => (
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/75">Ordena en línea</p>
           <h2 className="mt-2 font-heading text-4xl">Pide para recoger, rápido y sin complicaciones</h2>
           <p className="mt-3 max-w-xl text-sm text-white/80 sm:text-base">
-            Haz tu orden en minutos. Este frontend ya está preparado para conectarse luego con pagos seguros,
-            envío de orden al backend y estado de cocina en tiempo real.
+            Haz tu orden en minutos y pasa por Tres Monos a recogerla recién preparada.
           </p>
         </div>
         <div className="flex flex-wrap gap-3 lg:justify-end">

@@ -45,7 +45,7 @@ export const CartSidebar = ({
   const isEmpty = items.length === 0;
 
   return (
-    <aside className="h-full overflow-y-auto rounded-3xl border border-brand-night/10 bg-white p-5 shadow-soft">
+    <aside className="h-full min-h-0 overflow-y-auto overscroll-contain touch-pan-y rounded-3xl border border-brand-night/10 bg-white p-5 shadow-soft">
       <div className="flex items-center justify-between gap-3">
         <h2 className="font-heading text-3xl text-brand-night">Tu carrito</h2>
         {onClose ? (
@@ -60,14 +60,14 @@ export const CartSidebar = ({
         ) : null}
       </div>
 
-      <p className="mt-2 text-sm text-brand-night/70">Solo recogido por ahora. La selección de hora se añadirá en la fase de backend.</p>
+      <p className="mt-2 text-sm text-brand-night/70">Recogido en tienda.</p>
 
       {submittedOrder ? (
         <div className="mt-5 rounded-2xl bg-brand-palm/10 p-4 text-sm text-brand-night">
-          <p className="font-semibold">Orden enviada (simulada)</p>
+          <p className="font-semibold">Orden recibida</p>
           <p className="mt-1">Número de orden: {submittedOrder.orderId}</p>
           <p>Estado: {statusLabel[submittedOrder.status]}</p>
-          <p className="mt-2 text-brand-night/75">Flujo de cocina simulado: enviado a en preparación y luego listo.</p>
+          <p className="mt-2 text-brand-night/75">Gracias por ordenar con nosotros.</p>
         </div>
       ) : null}
 
@@ -131,7 +131,7 @@ export const CartSidebar = ({
           void onSubmit();
         }}
       >
-        <h3 className="font-semibold text-brand-night">Datos para finalizar (solo interfaz)</h3>
+        <h3 className="font-semibold text-brand-night">Datos para completar tu pedido</h3>
         <Input
           id="checkout-name"
           label="Nombre completo"
@@ -164,11 +164,8 @@ export const CartSidebar = ({
         />
 
         <Button className="w-full" isLoading={isSubmitting} disabled={isEmpty}>
-          Enviar orden simulada
+          Enviar orden
         </Button>
-        <p className="text-xs text-brand-night/60">
-          Próximo paso: conectar este envío al endpoint de órdenes y al flujo de pago con Stripe o Square.
-        </p>
       </form>
     </aside>
   );

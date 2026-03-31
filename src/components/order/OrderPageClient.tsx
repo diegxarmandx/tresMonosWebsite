@@ -78,11 +78,11 @@ export const OrderPageClient = () => {
         <SectionHeading
           eyebrow="Ordena en línea"
           title="Arma tu pedido para recoger en pocos toques"
-          description="Experiencia de orden simulada con carrito, totales y checkout listos para backend."
+          description="Escoge tus platos favoritos, confirma tu pedido y recógelo en Tres Monos."
         />
 
         <div className="rounded-2xl border border-brand-night/10 bg-brand-sand/50 p-4 text-sm text-brand-night/75">
-          Por ahora solo ofrecemos recogido. La hora de recogido, el pago y el rastreo en cocina se conectarán en la fase de backend.
+          Servicio para recoger en tienda. Cuando llegues, pregúntale a la host por tu orden.
         </div>
 
         <div className="lg:hidden">
@@ -161,7 +161,7 @@ export const OrderPageClient = () => {
           </section>
 
           <div className="hidden lg:block">
-            <div className="sticky top-24">
+            <div className="sticky top-24 h-[calc(100dvh-7rem)]">
               <CartSidebar
                 items={cartItems}
                 subtotal={totals.subtotal}
@@ -180,8 +180,8 @@ export const OrderPageClient = () => {
       </Container>
 
       {isCartOpen ? (
-        <div className="fixed inset-0 z-50 grid bg-black/45 p-4 lg:hidden" role="dialog" aria-modal="true">
-          <div className="ml-auto h-full w-full max-w-md animate-slide-up">
+        <div className="fixed inset-0 z-50 bg-black/45 p-4 lg:hidden" role="dialog" aria-modal="true">
+          <div className="ml-auto h-[calc(100dvh-2rem)] w-full max-w-md overflow-hidden animate-slide-up">
             <CartSidebar
               items={cartItems}
               subtotal={totals.subtotal}

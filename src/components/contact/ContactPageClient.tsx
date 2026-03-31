@@ -82,7 +82,7 @@ export const ContactPageClient = () => {
             <Button isLoading={isSubmitting} className="w-full">Enviar mensaje</Button>
             {isSuccess ? (
               <p className="rounded-xl bg-brand-palm/10 p-3 text-sm text-brand-night">
-                Mensaje enviado (simulado). Próximo paso: conectarlo al endpoint real de correo/CRM.
+                ¡Mensaje enviado! Te responderemos pronto.
               </p>
             ) : null}
           </form>
